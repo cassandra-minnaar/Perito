@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --headings-h6: "Open Sans";
+  --headings-h2: Montserrat;
+  --body-madera-text-base-regular: Madera;
+  --headings-h6-size: 20px;
+  --headings-h3-size: 30px;
+  --body-madera-text-base-regular-size: 16px;
+  --body-open-sans-text-sm-regular-size: 14px;
+  --body-open-sans-text-m-regular-size: 18px;
+  --headings-h2-size: 40px;
+  --font-size-10xl: 29px;
+  --white: #fff;
+  --color-gray-100: #fefefe;
+  --transparent-container-stroke: #ffffff4d;
+  --primary-dark-blue: #0003;
+  --color-slategray: #736a85;
+  --primary-light-blue: #4885aa;
+  --black: #000;
+  --gap-61xl: 80px;
+  --gap-13xl: 32px;
+  --gap-21xl: 40px;
+  --gap-9xs: 4px;
+  --gap-5xs: 8px;
+  --gap-base: 16px;
+  --padding-61xl: 80px;
+  --padding-131xl: 150px;
+  --padding-13xl: 32px;
+  --padding-45xl: 64px;
+  --padding-21xl: 40px;
+  --padding-3xs: 10px;
+  --padding-5xs: 8px;
+  --padding-101xl: 120px;
+  --padding-29xl: 48px;
+  --padding-93xl: 112px;
+  --padding-base: 16px;
+  --padding-38xl: 57px;
+  --br-xl: 20px;
+  --br-81xl: 100px;
+}
+
+/*# sourceMappingURL=home.689f5f05.css.map */
