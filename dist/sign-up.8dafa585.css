@@ -66,7 +66,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 48px 112px 16px;
+  padding: 100px 58px 16px;
   display: flex;
   position: absolute;
   top: 48px;
@@ -263,6 +263,15 @@
   .client {
     width: 47%;
   }
+
+  .footer-items {
+    justify-content: center;
+    gap: 8px;
+    font-size: 10px;
+    position: absolute;
+    top: -29px;
+    left: 6px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -270,8 +279,35 @@
     display: none;
   }
 
+  .account-selection-card {
+    width: 23%;
+  }
+
   .client {
-    width: 53%;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .image-4-parent, .image-5-parent {
+    width: 100%;
+    height: 130px;
+  }
+
+  .gigexecs4, .footer-items-child-1, .header-child {
+    display: none;
+  }
+
+  .gigexecs3 {
+    left: -40px;
+  }
+
+  .footer-items {
+    justify-content: center;
+    gap: 8px;
+    font-size: 10px;
+    position: absolute;
+    top: -22px;
+    left: 40px;
   }
 }
 
@@ -293,26 +329,21 @@
     width: 144px;
   }
 
-  .gigexecs2 {
-    gap: 20px;
+  .gigexecs3 {
+    left: -55px;
+  }
+
+  .gigexecs4, .footer-items-child-1, .header-child {
+    display: none;
   }
 
   .footer-items {
     justify-content: center;
-    gap: 16px;
+    gap: 8px;
+    font-size: 10px;
     position: absolute;
-    top: -20px;
-    left: 144px;
-  }
-
-  .gigexecs4 {
-    width: 145.14px;
-    height: 38.12px;
-    flex-shrink: 0;
-    font-family: Montserrat;
-    font-size: 29px;
-    font-weight: 800;
-    position: relative;
+    top: -29px;
+    left: 12px;
   }
 }
 
@@ -322,11 +353,11 @@
 }
 
 .gigexecs4 {
-  width: 145.14px;
-  height: 38.12px;
+  width: 8.14px;
+  height: 68.12px;
   flex-shrink: 0;
   font-family: Montserrat;
-  font-size: 29px;
+  font-size: 19px;
   font-weight: 800;
   position: relative;
 }
@@ -344,19 +375,21 @@
   position: relative;
 }
 
-.copyright-policy, .footer-items {
+copyright-policy, .footer-items {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  font-size: 11px;
   display: flex;
 }
 
 .footer-items {
   justify-content: center;
-  gap: 16px;
+  gap: 8px;
+  font-size: 10px;
   position: absolute;
-  top: 9px;
-  left: 377px;
+  top: -29px;
+  left: 12px;
 }
 
 .limited-footer {

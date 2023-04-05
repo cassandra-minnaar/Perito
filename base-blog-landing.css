@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --body-madera-text-base-regular: Madera;
+  --body-montserrat-text-base-bold: Montserrat;
+  --body-open-sans-text-base-regular: "Open Sans";
+
+  /* font sizes */
+  --body-madera-text-base-regular-size: 16px;
+  --font-size-10xl: 29px;
+  --body-montserrat-text-sm-regular-size: 14px;
+  --body-open-sans-text-lg-semibold-size: 20px;
+  --headings-h3-size: 30px;
+  --headings-h2-size: 40px;
+  --body-size: 18px;
+
+  /* Colors */
+  --primary-white: #fff;
+  --color-gray-100: #fefefe;
+  --transparent-container-stroke: rgba(255, 255, 255, 0.3);
+  --primary-dark-blue: rgba(0, 0, 0, 0.2);
+  --color-slategray: #736a85;
+  --primary-light-blue: #4885aa;
+  --black: #000;
+
+  /* Gaps */
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-29xl: 48px;
+  --gap-13xl: 32px;
+  --gap-5xs: 8px;
+  --gap-4xl: 23px;
+  --gap-9xs: 4px;
+  --gap-21xl: 40px;
+  --gap-61xl: 80px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-13xl: 32px;
+  --padding-45xl: 64px;
+  --padding-21xl: 40px;
+  --padding-29xl: 48px;
+  --padding-93xl: 112px;
+  --padding-61xl: 80px;
+  --padding-131xl: 150px;
+  --padding-3xs: 10px;
+
+  /* border radiuses */
+  --br-xl: 20px;
+}
